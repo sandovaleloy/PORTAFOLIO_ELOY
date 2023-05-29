@@ -1,0 +1,29 @@
+.container_education {
+    margin: 0 auto;
+    width: 79%;
+    padding: 1px;
+    margin-bottom: 50px;
+}
+
+.container_education  h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.container_education-div {
+    gap: 10px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px;
+}
+
+.div_image  img{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}

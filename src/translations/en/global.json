@@ -1,0 +1,39 @@
+{
+    "menuNav": {
+        "aboutMenu": "About me",
+        "projectMenu": "Projects",
+        "contactMenu": "Contacts"
+    },
+    "AboutMe": {
+        "aboutMe": "About me",
+        "iAm": "Hi I am",
+        "name": "Eloy sandoval",
+        "FullStack": "Developer Full Stack",
+        "pAboutMe": "As an organized and highly motivated person, I am able to adapt to any circumstance and always give my best in any project, while at the same time making an effort to work as a team and promote values ​​such as camaraderie, if you want you can contact me. You will find all my information in the contact area."
+
+    },
+    "Project": {
+        "ProyectTitle": "Projects",
+        "users": "users",
+        "DescriptionUsers": "Responsive App to create, delete and edit users",
+        "WheaterApp": "Wheater App",
+        "DescriptionWeather": "A weather app, that shows the temperatures in C° and F°, and the weather in your location with a weather Api",
+        "MemoriesCard": "Memories Card",
+        "DescriptionCard": "Entertaining app that generates letters with phrases from historical people",
+        "Pokedex": "Pokedex",
+        "DescriptionPokedex": "Funny pokedex with all the pokemons of a poke Api",
+        "Sampdoria": "Club Sampdoria",
+        "DescriptionSampdoria": "App designed for an amateur soccer club and to keep the fans informed",
+        "Ecommerce": "Ecommerce",
+        "DescriptionEcommerce": "Consumption of an API of electronic products, with different functionalities"
+    },
+    "Education": {
+        "EducationTitle": "Education"
+    },
+    "TechSkills": {
+        "TechSkillsTitle": "Tech Skills"
+    },
+    "Contact": {
+        "ContactTitle": "Contact"
+    }
+}

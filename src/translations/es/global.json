@@ -1,0 +1,38 @@
+{
+    "menuNav": {
+        "aboutMenu": "Sobre mi",
+        "projectMenu": "Proyectos",
+        "contactMenu": "Contactos"
+    },
+    "AboutMe": {
+        "aboutMe": "Acerca de mi",
+        "iAm": "Hola yo soy",
+        "name": "Eloy sandoval",
+        "FullStack": "Desarrollador Full Stack",
+        "pAboutMe": "Como persona organizada y muy motivada, soy capaz de adaptarme a cualquier circunstancia y dar siempre lo mejor de mí en cualquier proyecto, a la vez que me esfuerzo por trabajar en equipo y fomentar valores como el compañerismo, si quieres. puedes contactarme Encontrarás toda mi información en el área de contacto."
+    },
+    "Project": {
+        "ProyectTitle": "Proyectos",
+        "users": "Usuarios",
+        "DescriptionUsers": "responsive App para crear, eliminar y editar usuarios",
+        "WheaterApp": "Aplicación Del clima",
+        "DescriptionWeather": "Una app del clima, que muestra la temperaturas en C° y F°, y el clima en tu localizacion con una weather Api",
+        "MemoriesCard": "Tarjetas De Recuerdos",
+        "DescriptionCard": "Entretenida app que genera cartas con frases de personas historicas",
+        "Pokedex": "Pokedex",
+        "DescriptionPokedex": "Divertida pokedex con todos los pokemones de una poke Api",
+        "Sampdoria": "Club Sampdoria",
+        "DescriptionSampdoria": "App diseñada para un club de futbol amateur y para mantener informada a la aficion ",
+        "Ecommerce": "Ecommerce",
+        "DescriptionEcommerce": "Consumo de una Api de productos electronicos, con diferentes funcionalidades"
+    },
+    "Education": {
+        "EducationTitle": "Educacion"
+    },
+    "TechSkills": {
+        "TechSkillsTitle": "Habilidades Tecnológicas"
+    },
+    "Contact": {
+        "ContactTitle": "Contactos"
+    }
+}

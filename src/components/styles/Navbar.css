@@ -1,0 +1,82 @@
+.conatiner_navbar {
+  top: 60px;
+  transition: background 300ms ease, color 300ms ease;
+  width: 110px;
+  position: absolute;
+
+}
+
+.conatiner_navbar-h2 {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: background 300ms ease, color 300ms ease;
+}
+
+.conatiner_navbar-h2 a {
+  scroll-behavior: smooth;
+}
+
+.conatiner_navbar-h2:hover {
+  color: red;
+}
+
+#darkBlue {
+  background-color: rgb(179, 173, 173);
+  color: black;
+}
+
+#lightll {
+  background-color: gray;
+  color: white;
+}
+
+.initial {
+  transform: translateX(-110px);
+  transition: all ease .5s;
+  display: grid;
+}
+
+.active {
+  display: grid;
+  transform: translateY(0px);
+  transition: all ease .5s;
+}
+
+.changeMode {
+  cursor: pointer;
+  font-size: 20px;
+  top: 5px;
+  right: 0;
+  position: absolute;
+  padding: 10px;
+  transition: background 300ms ease, color 300ms ease;
+}
+
+.icon {
+  cursor: pointer;
+  font-size: 20px;
+  position: absolute;
+  top: 5px;
+  left: 0;
+  padding: 10px;
+  transition: background 300ms ease, color 300ms ease;
+}
+
+.arrow {
+  border-radius: 5px;
+  left: -2px;
+  padding: 5px;
+  font-size: 18px;
+  border: 1px solid white;
+  position: fixed;
+  top: 90vh;
+  transition: background 300ms ease, color 300ms ease;
+}
+
+.arrow:hover {
+  font-size: 19px;
+  transition: 300ms ease-out, color 300ms ease;
+}

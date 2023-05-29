@@ -1,0 +1,21 @@
+.container_tech {
+    /* display: grid; */
+    /* justify-content: center; */
+    width: 50%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.container_tech h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.container_tech-div {
+    border: 1px solid white;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+}
