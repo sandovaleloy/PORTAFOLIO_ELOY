@@ -29,14 +29,14 @@ function App() {
           id={theme}
           onClick={() => i18n.changeLanguage("es")}
         >
-          <img src="./image/españa.png" alt="" />
+          <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEip_enHIOPMZ1J4dY-1VddORkvJCAsSTugdonlVnVy8YBq2Yoac9H_smxe7gJbIe0brwTZc8o_mBUZrarjtrDEFdFE-kt_k9tjuzX_5dlLHgiFXk2fCuIAbREg_QVhr-On7ZLQyM0dtDESiVOfHMryxyGSJDWedBQKoypmmz82GZL2gMQsEnJ4eEr-aHA/s275/espa%C3%B1a.png" alt="" />
         </button>
         <button
           className="btn_en"
           id={theme}
           onClick={() => i18n.changeLanguage("en")}
         >
-          <img src="./image/uk.png" alt="" />
+          <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMKIeLfA8SvzY09OMmQMO9bmqigW-51lx92Bs-RDECsmex9feZTYJwA2G8_Z7xtlwkYZyfe87M43SFkBeZg_8SjOBf5XuFaw5Vv3IHy5mFZb-q-LH6OCnqAyzbOS4biJKfN2s7qt7LJZYsOOYh-v4oGg8On8UCG0qcA_nM0NgyyzdHFCNs30C3LBXqYA/s290/uk.png" alt="" />
         </button>
       </div>
       <div >
