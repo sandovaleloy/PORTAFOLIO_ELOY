@@ -29,14 +29,14 @@ function App() {
           id={theme}
           onClick={() => i18n.changeLanguage("es")}
         >
-          <img src="./public/image/españa.png" alt="" />
+          <img src="./image/españa.png" alt="" />
         </button>
         <button
           className="btn_en"
           id={theme}
           onClick={() => i18n.changeLanguage("en")}
         >
-          <img src="./public/image/uk.png" alt="" />
+          <img src="./image/uk.png" alt="" />
         </button>
       </div>
       <div >
