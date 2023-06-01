@@ -34,7 +34,7 @@
 }
 
 .initial {
-  transform: translateX(-110px);
+  transform: translateX(-115px);
   transition: all ease .5s;
   display: grid;
 }
@@ -72,7 +72,7 @@
   font-size: 18px;
   border: 1px solid white;
   position: fixed;
-  top: 90vh;
+  top: 70vh;
   transition: background 300ms ease, color 300ms ease;
 }
 
