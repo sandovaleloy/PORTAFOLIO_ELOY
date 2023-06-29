@@ -18,9 +18,6 @@ const Navbar = ({ changeTheme, theme, barra }) => {
         className={`changeMode bx bx-${theme === "light" ? "moon" : "sun"}`}
       ></i>
       <i id={theme} onClick={handleClickMenu} className="icon bx bx-menu"></i>
-      <a href="#navbar">
-        <i id={theme} className='arrow bx bx-chevrons-up' ></i>
-      </a>
       <section className="conatiner_navbar">
         <div id={barra} className={`initial ${menuNav ? "active" : ""}`}>
           <a onClick={handleClickMenu} href="#aboutMe"  className="conatiner_navbar-h2">{t("menuNav.aboutMenu")}</a>

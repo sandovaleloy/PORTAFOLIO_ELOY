@@ -8,6 +8,7 @@ import { useState } from "react";
 import ParticlesBackground from "./components/ParticlesBackground";
 import TechSkills from "./components/TechSkills";
 import Education from "./components/Education";
+import ScrollButton from "./components/ScrollButton";
 
 function App() {
   const [t, i18n] = useTranslation("global");
@@ -57,6 +58,7 @@ function App() {
       <div id="contact">
         <Contact theme={theme} />
       </div>
+      <ScrollButton />
     </section>
   );
 }

@@ -3,7 +3,6 @@
   transition: background 300ms ease, color 300ms ease;
   width: 110px;
   position: absolute;
-
 }
 
 .conatiner_navbar-h2 {
@@ -63,20 +62,4 @@
   left: 0;
   padding: 10px;
   transition: background 300ms ease, color 300ms ease;
-}
-
-.arrow {
-  border-radius: 5px;
-  left: -2px;
-  padding: 5px;
-  font-size: 18px;
-  border: 1px solid white;
-  position: fixed;
-  top: 70vh;
-  transition: background 300ms ease, color 300ms ease;
-}
-
-.arrow:hover {
-  font-size: 19px;
-  transition: 300ms ease-out, color 300ms ease;
 }
