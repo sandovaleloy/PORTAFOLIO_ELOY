@@ -1,9 +1,8 @@
 .container_tech {
-    /* display: grid; */
-    /* justify-content: center; */
     width: 50%;
     max-width: 600px;
     margin: 0 auto;
+    position: relative;
 }
 
 .container_tech h2 {
@@ -12,6 +11,7 @@
 }
 
 .container_tech-div {
+    z-index: 2;
     border: 1px solid white;
     margin-bottom: 50px;
     flex-wrap: wrap;

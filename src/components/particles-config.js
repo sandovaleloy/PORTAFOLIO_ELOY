@@ -1,7 +1,7 @@
 const particlesConfig = {
     "particles": {
       "number": {
-        "value": 80,
+        "value": 40,
         "density": {
           "enable": true,
           "value_area": 800
@@ -47,7 +47,7 @@ const particlesConfig = {
       },
       "line_linked": {
         "enable": true,
-        "distance": 150,
+        "distance": 130,
         "color": "rgb(231, 17, 17)",
         "opacity": 0.4,
         "width": 1

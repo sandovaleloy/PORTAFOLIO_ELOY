@@ -17,7 +17,7 @@ const Navbar = ({ changeTheme, theme, barra }) => {
         onClick={changeTheme}
         className={`changeMode bx bx-${theme === "light" ? "moon" : "sun"}`}
       ></i>
-      <i id={theme} onClick={handleClickMenu} className="icon bx bx-menu"></i>
+      {menuNav ? <i id={theme} onClick={handleClickMenu} className="icon bx bx-menu"></i> : <i id={theme} onClick={handleClickMenu} className="icon bx bx-menu-alt-left"></i>}
       <section className="conatiner_navbar">
         <div id={barra} className={`initial ${menuNav ? "active" : ""}`}>
           <a onClick={handleClickMenu} href="#aboutMe"  className="conatiner_navbar-h2">{t("menuNav.aboutMenu")}</a>
