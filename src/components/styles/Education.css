@@ -12,19 +12,34 @@
 }
 
 .container_education-div {
-    gap: 10px;
     border: 1px solid black;
+    gap: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding: 5px;
+    /* min-width: 320px; */
+    /* width: 320px; */
 }
 
 .div_image  img{
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    width: 50%;
+    width: 320px;
     height: 100%;
     object-fit: cover;
+    transition: transform 0.3s ease;
+}
+.div_image {
+    transition: all .5s ease;
+}
+.div_image:hover {
+    transform: scale(1.01);
+}
+
+@media  (max-width: 415px) {
+    .container_education-div {
+        border: none;
+    }
 }

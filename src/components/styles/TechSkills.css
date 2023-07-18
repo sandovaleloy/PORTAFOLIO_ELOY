@@ -1,7 +1,8 @@
 .container_tech {
-    width: 50%;
-    max-width: 600px;
+    width: 80%;
+    /* max-width: 600px; */
     margin: 0 auto;
+    text-align: center;
     position: relative;
 }
 
@@ -14,8 +15,21 @@
     z-index: 2;
     border: 1px solid white;
     margin-bottom: 50px;
-    flex-wrap: wrap;
     font-size: 70px;
-    display: flex;
+    display: grid;
+    flex-wrap: wrap;
     justify-content: center;
+}
+
+.div22 {
+    gap: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.div2222 {
+    gap: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
 }
