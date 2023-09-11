@@ -1,9 +1,9 @@
 .container_tech {
     width: 80%;
-    /* max-width: 600px; */
     margin: 0 auto;
     text-align: center;
     position: relative;
+    margin-bottom: 300px;
 }
 
 .container_tech h2 {
@@ -32,4 +32,10 @@
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
+}
+
+@media  (max-width: 415px) {
+    .container_tech {
+        margin-bottom: 200px;
+    }
 }

@@ -12,6 +12,7 @@ const TechSkills = () => {
           <div className="div22">
             <i className="bx bxl-javascript"></i>
             <i className="bx bxl-html5"></i>
+            <i className='bx bxl-wordpress'></i>
           </div>
           <div className="div22">
             <i className="bx bxl-react"></i>
@@ -23,6 +24,7 @@ const TechSkills = () => {
           <div className="div22">
             <i className="bx bxl-css3"></i>
             <i className="bx bxl-tailwind-css"></i>
+            <i className='bx bxl-github'></i>
           </div>
           <div className="div22">
             <i className="bx bxl-nodejs"></i>

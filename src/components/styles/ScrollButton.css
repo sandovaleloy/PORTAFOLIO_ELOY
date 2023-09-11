@@ -1,6 +1,6 @@
 .scroll-button {
     position: fixed;
-    bottom: 150px;
+    bottom: 100px;
     left: 4px;
     opacity: 0;
     cursor: pointer;
