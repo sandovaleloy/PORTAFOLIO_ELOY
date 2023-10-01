@@ -45,7 +45,7 @@ const Project = () => {
           </div>
         </a>
 
-        <a href="https://club-sampdoria-becerril.netlify.app/" target="_blank" className="figure">
+        {/* <a href="https://club-sampdoria-becerril.netlify.app/" target="_blank" className="figure">
           <img
             src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtAZFMgLHyoO5WiQUdwsRZ-1XDS-Tg2WdJ-NIgVuBQ3OSRTEpf9Bdt2fDivbZJJ2Xg-YHNcsp5QR82pLvPoRScxHWkGTfAAGow1rwfdMulbQheExqPt9ha_7yUDIbWu4zF2dY2iNO7CERbR_9S0pwrLgAGaP_uSajDuXGsxdgNVfVU43OIEenNWjodMA/s1328/sampdoria.PNG"
             alt=""
@@ -61,7 +61,7 @@ const Project = () => {
               <i className="icoon_project bx bxl-javascript"></i>
             </div>
           </div>
-        </a>
+        </a> */}
 
         <a href="https://memories-card-historic.netlify.app/" target="_blank" className="figure">
           <img
