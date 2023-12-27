@@ -28,41 +28,53 @@ const Navbar = ({ changeTheme, theme, barra }) => {
       )}
       <section className="conatiner_navbar">
         <div id={barra} className={`initial ${menuNav ? "active" : ""}`}>
-          <a
-            onClick={handleClickMenu}
-            href="#aboutMe"
-            className="conatiner_navbar-h2"
-          >
-            {t("menuNav.aboutMenu")}
-          </a>
-          <a
-            onClick={handleClickMenu}
-            href="#projects"
-            className="conatiner_navbar-h2"
-          >
-            {t("menuNav.projectMenu")}
-          </a>
-          <a
-            onClick={handleClickMenu}
-            href="#TechSkills"
-            className="conatiner_navbar-h2"
-          >
-            {t("TechSkills.TechSkillsTitle")}
-          </a>
-          <a
-            onClick={handleClickMenu}
-            href="#Education"
-            className="conatiner_navbar-h2"
-          >
-            {t("Education.EducationTitle")}
-          </a>
-          <a
-            onClick={handleClickMenu}
-            href="#contact"
-            className="conatiner_navbar-h2"
-          >
-            {t("menuNav.contactMenu")}
-          </a>
+          <div className="container_a">
+            <a
+              onClick={handleClickMenu}
+              href="#aboutMe"
+              className="conatiner_navbar-h2"
+              id={barra}
+            >
+              {t("menuNav.aboutMenu")}
+            </a>
+            <a
+              onClick={handleClickMenu}
+              href="#projects"
+              className="conatiner_navbar-h2"
+              id={barra}
+            >
+              {t("menuNav.projectMenu")}
+            </a>
+            <a
+              onClick={handleClickMenu}
+              href="#TechSkills"
+              className="conatiner_navbar-h2"
+              id={barra}
+            >
+              {t("TechSkills.TechSkillsTitle")}
+            </a>
+            <a
+              onClick={handleClickMenu}
+              href="#Education"
+              className="conatiner_navbar-h2"
+              id={barra}
+            >
+              {t("Education.EducationTitle")}
+            </a>
+            <a
+              onClick={handleClickMenu}
+              href="#contact"
+              className="conatiner_navbar-h2"
+              id={barra}
+            >
+              {t("menuNav.contactMenu")}
+            </a>
+            <i
+              className="iconX bx bx-x"
+              onClick={handleClickMenu}
+              // id={barra}
+            ></i>
+          </div>
         </div>
       </section>
     </nav>

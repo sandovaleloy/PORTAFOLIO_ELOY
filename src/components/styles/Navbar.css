@@ -7,9 +7,15 @@
 
 .conatiner_navbar {
   top: 60px;
-  transition: background 300ms ease, color 300ms ease;
-  width: 110px;
+  transition: all ease .5s;
+  width: 300px;
   position: absolute;
+}
+
+@media (max-width: 600px) {
+  .conatiner_navbar {
+    width: 250px;
+  }
 }
 
 .conatiner_navbar-h2 {
@@ -25,30 +31,44 @@
   scroll-behavior: smooth;
 }
 
-.conatiner_navbar-h2:hover {
-  color: red;
-}
-
 #darkBlue {
-  background-color: rgb(179, 173, 173);
+  background-color: white;
   color: black;
+  transition: all ease .5s;
 }
 
 #lightll {
-  background-color: gray;
+  background-color: black;
   color: white;
+  transition: all ease .5s;
+
 }
 
 .initial {
-  transform: translateX(-115px);
+  transform: translateX(-320px);
   transition: all ease .5s;
   display: grid;
+  height: 100vh;
 }
 
 .active {
   display: grid;
   transform: translateY(0px);
   transition: all ease .5s;
+}
+
+.container_a {
+  height: 300px;
+  display: grid;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.container_a a{
+  display: grid;
+  justify-content: end;
+  padding-right: 30px;
 }
 
 .changeMode {
@@ -66,7 +86,24 @@
   font-size: 20px;
   position: absolute;
   top: 5px;
-  left: 0;
+  left: 5px;
   padding: 10px;
   transition: background 300ms ease, color 300ms ease;
+
+  border: 1px solid;
+  border-radius: 5px;
+  
+}
+
+.iconX {
+  cursor: pointer;
+  font-size: 30px;
+  border: 1px solid;
+  width: 30px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.iconX:hover {
+  color: red;
 }
