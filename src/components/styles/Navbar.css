@@ -7,7 +7,7 @@
 
 .conatiner_navbar {
   top: 60px;
-  transition: all ease .5s;
+  transition: all ease 0.5s;
   width: 300px;
   position: absolute;
 }
@@ -32,21 +32,20 @@
 }
 
 #darkBlue {
-  background-color: white;
-  color: black;
-  transition: all ease .5s;
+  background-color: #7b8076;
+  color: white;
+  transition: all ease 0.5s;
 }
 
 #lightll {
-  background-color: black;
+  background-color: #323153;
   color: white;
-  transition: all ease .5s;
-
+  transition: all ease 0.5s;
 }
 
 .initial {
   transform: translateX(-320px);
-  transition: all ease .5s;
+  transition: all ease 0.5s;
   display: grid;
   height: 100vh;
 }
@@ -54,7 +53,7 @@
 .active {
   display: grid;
   transform: translateY(0px);
-  transition: all ease .5s;
+  transition: all ease 0.5s;
 }
 
 .container_a {
@@ -65,7 +64,7 @@
   align-items: center;
 }
 
-.container_a a{
+.container_a a {
   display: grid;
   justify-content: end;
   padding-right: 30px;
@@ -92,7 +91,6 @@
 
   border: 1px solid;
   border-radius: 5px;
-  
 }
 
 .iconX {

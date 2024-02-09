@@ -69,11 +69,7 @@ const Navbar = ({ changeTheme, theme, barra }) => {
             >
               {t("menuNav.contactMenu")}
             </a>
-            <i
-              className="iconX bx bx-x"
-              onClick={handleClickMenu}
-              // id={barra}
-            ></i>
+            <i className="iconX bx bx-x" onClick={handleClickMenu}></i>
           </div>
         </div>
       </section>

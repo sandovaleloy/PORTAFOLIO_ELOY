@@ -21,12 +21,12 @@ img {
 }
 
 #dark {
-  background-color: black;
+  background-color: #030729;
   color: white;
 }
 
 #light {
-  background-color: white;
+  background-color: #c9cbd6;
   color: black;
 }
 
