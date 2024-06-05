@@ -26,48 +26,58 @@ const Navbar = ({ changeTheme, theme, barra }) => {
           className="icon bx bx-menu-alt-left"
         ></i>
       )}
-      <section className="conatiner_navbar">
+      <section className="container_navbar">
         <div id={barra} className={`initial ${menuNav ? "active" : ""}`}>
           <div className="container_a">
             <a
               onClick={handleClickMenu}
               href="#aboutMe"
-              className="conatiner_navbar-h2"
+              className="container_navbar-h2"
               id={barra}
             >
-              {t("menuNav.aboutMenu")}
+              <span className="container_navbar-span">
+                {t("menuNav.aboutMenu")}
+              </span>
             </a>
             <a
               onClick={handleClickMenu}
               href="#projects"
-              className="conatiner_navbar-h2"
+              className="container_navbar-h2"
               id={barra}
             >
-              {t("menuNav.projectMenu")}
+              <span className="container_navbar-span">
+                {t("menuNav.projectMenu")}
+              </span>
             </a>
             <a
               onClick={handleClickMenu}
               href="#TechSkills"
-              className="conatiner_navbar-h2"
+              className="container_navbar-h2"
               id={barra}
             >
-              {t("TechSkills.TechSkillsTitle")}
+              <span className="container_navbar-span">
+                {t("TechSkills.TechSkillsTitle")}
+              </span>
             </a>
             <a
               onClick={handleClickMenu}
               href="#Education"
-              className="conatiner_navbar-h2"
+              className="container_navbar-h2"
               id={barra}
             >
-              {t("Education.EducationTitle")}
+              <span className="container_navbar-span">
+                {t("Education.EducationTitle")}
+              </span>
             </a>
             <a
               onClick={handleClickMenu}
               href="#contact"
-              className="conatiner_navbar-h2"
+              className="container_navbar-h2"
               id={barra}
             >
-              {t("menuNav.contactMenu")}
+              <span className="container_navbar-span">
+                {t("menuNav.contactMenu")}
+              </span>
             </a>
             <i className="iconX bx bx-x" onClick={handleClickMenu}></i>
           </div>

@@ -1,46 +1,58 @@
 .container_education {
-    margin: 0 auto;
-    width: 79%;
-    padding: 1px;
-    margin-top: 170px;
-    margin-bottom: 200px;
-    position: relative;
+  margin: 0 auto;
+  width: 79%;
+  padding: 1px;
+  margin-top: 170px;
+  margin-bottom: 200px;
+  position: relative;
 }
 
-.container_education  h2 {
-    display: flex;
-    justify-content: center;
+.container_education h2 {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
 }
 
 .container_education-div {
-    border: 1px solid black;
-    gap: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 5px;
-    /* min-width: 320px; */
-    /* width: 320px; */
+  border: 1px solid black;
+  gap: 10px;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  padding: 5px;
 }
 
-.div_image  img{
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    width: 320px;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.3s ease;
+.div_image img {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 320px;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
 }
 .div_image {
-    transition: all .5s ease;
+  transition: all 0.5s ease;
 }
 .div_image:hover {
-    transform: scale(1.01);
+  transform: scale(1.01);
 }
 
-@media  (max-width: 415px) {
-    .container_education-div {
-        border: none;
-    }
+@media (max-width: 663px) {
+  .container_education-div {
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 415px) {
+  .div_image img {
+    width: 300px;
+  }
+}
+@media (max-width: 320px) {
+  .div_image img {
+    width: 260px;
+  }
 }

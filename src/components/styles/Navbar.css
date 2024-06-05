@@ -5,7 +5,7 @@
   z-index: 1;
 }
 
-.conatiner_navbar {
+.container_navbar {
   top: 60px;
   transition: all ease 0.5s;
   width: 300px;
@@ -13,26 +13,44 @@
 }
 
 @media (max-width: 600px) {
-  .conatiner_navbar {
+  .container_navbar {
     width: 250px;
   }
 }
 
-.conatiner_navbar-h2 {
+.container_navbar-h2 {
   text-decoration: none;
   color: black;
   padding: 10px;
   font-size: 13px;
   cursor: pointer;
   transition: background 300ms ease, color 300ms ease;
+  position: relative;
 }
 
-.conatiner_navbar-h2 a {
+.container_navbar-h2::after {
+  content: "";
+  display: block;
+  width: 80%;
+  border-bottom: 1px solid #fff;
+  position: absolute;
+  right: 2%;
+  bottom: 0;
+  color: red;
+  transition: background 300ms ease, color 300ms ease;
+}
+
+.container_navbar-span:hover {
+  color: rgb(236, 226, 226);
+  transition: background 300ms ease, color 300ms ease;
+}
+
+.container_navbar-h2 a {
   scroll-behavior: smooth;
 }
 
 #darkBlue {
-  background-color: #7b8076;
+  background-color: #757886;
   color: white;
   transition: all ease 0.5s;
 }
@@ -72,6 +90,7 @@
 
 .changeMode {
   cursor: pointer;
+  border-radius: 5px;
   font-size: 20px;
   top: 5px;
   right: 0;
@@ -88,7 +107,6 @@
   left: 5px;
   padding: 10px;
   transition: background 300ms ease, color 300ms ease;
-
   border: 1px solid;
   border-radius: 5px;
 }
@@ -100,8 +118,10 @@
   width: 30px;
   border-radius: 5px;
   margin: 0 auto;
+  transition: background 300ms ease, color 300ms ease;
 }
 
 .iconX:hover {
   color: red;
+  transition: background 300ms ease, color 300ms ease;
 }
