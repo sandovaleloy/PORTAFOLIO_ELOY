@@ -14,13 +14,15 @@
 }
 
 .container_education-div {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   gap: 10px;
   display: grid;
   grid-template-columns: 2fr 2fr;
   /* flex-wrap: wrap; */
   justify-content: center;
   padding: 5px;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .div_image img {
