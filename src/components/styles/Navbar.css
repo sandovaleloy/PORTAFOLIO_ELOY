@@ -6,7 +6,7 @@
 }
 
 .container_navbar {
-  top: 60px;
+  top: 0px;
   transition: all ease 0.5s;
   width: 300px;
   position: absolute;
@@ -66,12 +66,19 @@
   transition: all ease 0.5s;
   display: grid;
   height: 100vh;
+  position: fixed; /* Fija el menú para que no interfiera */
+  top: 0;
+  left: 0;
+  width: 300px;
+  pointer-events: none; /* Evita que reciba clics cuando está oculto */
+  opacity: 0; /* Lo oculta visualmente */
 }
 
 .active {
-  display: grid;
-  transform: translateY(0px);
+  transform: translateX(0px); /* Corrige el desplazamiento */
   transition: all ease 0.5s;
+  pointer-events: auto; /* Reactiva la interacción */
+  opacity: 1; /* Lo hace visible */
 }
 
 .container_a {

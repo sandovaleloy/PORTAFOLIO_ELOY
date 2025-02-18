@@ -11,12 +11,13 @@ const TechSkills = () => {
         <div className="div2222">
           <div className="div22">
             <i className="bx bxl-javascript"></i>
-            <i className="bx bxl-html5"></i>
-            <i className='bx bxl-wordpress'></i>
+            <i className="bx bxl-react"></i>
+            <i className="bx bxl-typescript"></i>
           </div>
           <div className="div22">
-            <i className="bx bxl-react"></i>
+            <i className="bx bxl-github"></i>
             <i className="bx bxl-redux"></i>
+            <i className="bx bxl-html5"></i>
           </div>
         </div>
 
@@ -24,11 +25,12 @@ const TechSkills = () => {
           <div className="div22">
             <i className="bx bxl-css3"></i>
             <i className="bx bxl-tailwind-css"></i>
-            <i className='bx bxl-github'></i>
+            <i className="bx bxl-bootstrap"></i>
           </div>
           <div className="div22">
             <i className="bx bxl-nodejs"></i>
             <i className="bx bxl-postgresql"></i>
+            <i className="bx bxl-mongodb"></i>
           </div>
         </div>
       </div>
