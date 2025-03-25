@@ -122,7 +122,8 @@ const Project = () => {
           className="figure"
         >
           <img
-            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYpGzZcnh9cJXfipDrClaYBiGO5qnWWLFOPgPMdrfK5JZT9gXPPmmCKLM4FbeGdxLS01dfBoqHljrrRKd47k1sE7HRZYehrdbdFQDvTk3fp9QfHpbkrIAvoxztQeEGmvB_h769sHytBqCSDLAjmkV4mi1jERmZBf1KFHcqxQy2CmgKFSj46q03Ei5aS7kq/s856/usersGeneretion.PNG"
+            // src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYpGzZcnh9cJXfipDrClaYBiGO5qnWWLFOPgPMdrfK5JZT9gXPPmmCKLM4FbeGdxLS01dfBoqHljrrRKd47k1sE7HRZYehrdbdFQDvTk3fp9QfHpbkrIAvoxztQeEGmvB_h769sHytBqCSDLAjmkV4mi1jERmZBf1KFHcqxQy2CmgKFSj46q03Ei5aS7kq/s856/usersGeneretion.PNG"
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKPcuwvwE7mp4zaFDnkcn1wZWI6_la1oUyDhFGkwckQZ9Ngn1C-wbTfDS6yNugA-7CQ_iKPcXhwbYXqsxx3ERZny0xWNp_ywxaQcAkmUMw7T3gYKGqFJElSrunqO2xFTS7jaaj5aGCIf3oyMW7ANeScvVFDSS1N4bJ_4J0N_DeO91l6cuzip31gUiuEA-N/s1010/users.2.PNG"
             alt=""
           />
           <div className="capa">

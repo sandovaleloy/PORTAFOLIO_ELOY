@@ -13,18 +13,13 @@ const Navbar = ({ changeTheme, theme, barra }) => {
   return (
     <nav className="container_nav">
       <i
-        id={theme}
         onClick={changeTheme}
         className={`changeMode bx bx-${theme === "light" ? "moon" : "sun"}`}
       ></i>
       {menuNav ? (
-        <i id={theme} onClick={handleClickMenu} className="icon bx bx-menu"></i>
+        <i onClick={handleClickMenu} className="icon bx bx-menu"></i>
       ) : (
-        <i
-          id={theme}
-          onClick={handleClickMenu}
-          className="icon bx bx-menu-alt-left"
-        ></i>
+        <i onClick={handleClickMenu} className="icon bx bx-menu-alt-left"></i>
       )}
       <section className="container_navbar">
         <div id={barra} className={`initial ${menuNav ? "active" : ""}`}>

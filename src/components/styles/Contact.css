@@ -30,12 +30,18 @@
 }
 
 .containerContact_principal h2 {
-  display: flex;
-  justify-content: center;
+  font-size: 28px;
+  font-weight: bold;
   text-transform: uppercase;
+  border-bottom: 3px solid #4a0675;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  justify-content: center;
 }
 
 .containerContact_principal {
+  text-align: center;
   padding-bottom: 300px;
 }
 

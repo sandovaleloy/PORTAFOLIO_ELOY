@@ -1,39 +1,51 @@
 import React from "react";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import "./styles/TechSkills.css";
 import { useTranslation } from "react-i18next";
 
+const skills = [
+  "bxl-javascript",
+  "bxl-react",
+  "bxl-typescript",
+  "bxl-github",
+  "bxl-redux",
+  "bxl-html5",
+  "bxl-css3",
+  "bxl-tailwind-css",
+  "bxl-bootstrap",
+  "bxl-nodejs",
+  "bxl-postgresql",
+  "bxl-mongodb",
+];
+
 const TechSkills = () => {
-  const [t, i18n] = useTranslation("global");
+  const [t] = useTranslation("global");
+
   return (
     <section className="container_tech">
       <h2>{t("TechSkills.TechSkillsTitle")}</h2>
-      <div className="container_tech-div">
-        <div className="div2222">
-          <div className="div22">
-            <i className="bx bxl-javascript"></i>
-            <i className="bx bxl-react"></i>
-            <i className="bx bxl-typescript"></i>
-          </div>
-          <div className="div22">
-            <i className="bx bxl-github"></i>
-            <i className="bx bxl-redux"></i>
-            <i className="bx bxl-html5"></i>
-          </div>
-        </div>
-
-        <div className="div2222">
-          <div className="div22">
-            <i className="bx bxl-css3"></i>
-            <i className="bx bxl-tailwind-css"></i>
-            <i className="bx bxl-bootstrap"></i>
-          </div>
-          <div className="div22">
-            <i className="bx bxl-nodejs"></i>
-            <i className="bx bxl-postgresql"></i>
-            <i className="bx bxl-mongodb"></i>
-          </div>
-        </div>
-      </div>
+      <Swiper
+        modules={[Autoplay]}
+        spaceBetween={30}
+        slidesPerView={3}
+        autoplay={{ delay: 2500, disableOnInteraction: false }}
+        breakpoints={{
+          640: { slidesPerView: 1 },
+          768: { slidesPerView: 2 },
+          1024: { slidesPerView: 3 },
+        }}
+        className="tech_swiper"
+      >
+        {skills.map((skill, index) => (
+          <SwiperSlide key={index} className="tech_slide">
+            <i className={`bx ${skill}`}></i>
+          </SwiperSlide>
+        ))}
+      </Swiper>
     </section>
   );
 };
