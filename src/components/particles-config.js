@@ -1,17 +1,17 @@
 const particlesConfig = {
   particles: {
     number: {
-      value: 50, // Cantidad moderada (ni vacío ni saturado)
+      value: 50, 
       density: {
         enable: true,
         value_area: 900,
       },
     },
     color: {
-      value: "#4A90E2", // Azul profesional confiable
+      value: "#4A90E2", 
     },
     shape: {
-      type: "circle", // Más elegante que "square"
+      type: "circle", 
       stroke: {
         width: 0,
         color: "#ffffff",
@@ -43,13 +43,13 @@ const particlesConfig = {
     line_linked: {
       enable: true,
       distance: 150,
-      color: "#4A90E2", // 🔹 Antes rojo, ahora azul elegante
+      color: "#4A90E2", 
       opacity: 0.25,
       width: 1,
     },
     move: {
       enable: true,
-      speed: 1.2, // Movimiento suave
+      speed: 1.2, 
       direction: "none",
       random: false,
       straight: false,
@@ -67,7 +67,7 @@ const particlesConfig = {
     events: {
       onhover: {
         enable: true,
-        mode: "grab", // Más elegante que "repulse"
+        mode: "grab",
       },
       onclick: {
         enable: true,
@@ -79,7 +79,7 @@ const particlesConfig = {
       grab: {
         distance: 180,
         line_linked: {
-          opacity: 0.5, // 🔹 Sutil pero visible en azul
+          opacity: 0.5,
         },
       },
       bubble: {

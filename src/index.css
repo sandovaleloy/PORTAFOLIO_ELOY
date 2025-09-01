@@ -1,4 +1,60 @@
+/* reset mínimo recomendado */
 * {
-  font-family: "Courier New", Courier, monospace;
+  box-sizing: border-box;
   margin: 0;
+  padding: 0;
 }
+
+/* variables de tipografía y tamaños */
+:root{
+  --font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  --font-heading: 'Poppins', var(--font-sans);
+  --base-size: 16px;
+  --line-height: 1.6;
+  --heading-line: 1.15;
+}
+
+/* tipografía base */
+html { font-size: var(--base-size); }
+body {
+  font-family: var(--font-sans);
+  font-weight: 400;
+  line-height: var(--line-height);
+  color: #111827; /* ajusta según tema */
+  background: var(--bg, #fff);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* headings */
+h1,h2,h3,h4,h5 {
+  font-family: var(--font-heading);
+  line-height: var(--heading-line);
+  color: inherit;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+/* pesos sugeridos */
+h1 { font-size: 2.25rem; }   /* 36px */
+h2 { font-size: 1.75rem; }   /* 28px */
+h3 { font-size: 1.25rem; }   /* 20px */
+
+/* inputs y botones */
+input, textarea, select, button {
+  font-family: var(--font-sans);
+  font-size: 1rem;
+}
+
+/* código y preformateado: mantener monospace */
+code, pre {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.95rem;
+  background: rgba(0,0,0,0.03);
+  padding: 2px 6px;
+  border-radius: 6px;
+}
+
+/* accesibilidad: buen contraste en temas */
+body.dark { --bg: #0f1724; color: #e6eef8; }
+body.light { --bg: #fff; color: #111827; }

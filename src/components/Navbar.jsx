@@ -1,83 +1,87 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./styles/Navbar.css";
 import { useTranslation } from "react-i18next";
 
 const Navbar = ({ changeTheme, theme, barra }) => {
   const [menuNav, setMenuNav] = useState(false);
-  const [t, i18n] = useTranslation("global");
+  const [t] = useTranslation("global");
 
-  const handleClickMenu = () => {
-    setMenuNav(!menuNav);
-  };
+  const handleClickMenu = () => setMenuNav((v) => !v);
+
+  useEffect(() => {
+    const onKey = (e) => {
+      if (e.key === "Escape") setMenuNav(false);
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, []);
 
   return (
-    <nav className="container_nav">
-      <i
+    <nav className="container_nav" role="navigation" aria-label="Main navigation">
+      <button
+        className="changeMode"
         onClick={changeTheme}
-        className={`changeMode bx bx-${theme === "light" ? "moon" : "sun"}`}
-      ></i>
-      {menuNav ? (
-        <i onClick={handleClickMenu} className="icon bx bx-menu"></i>
-      ) : (
-        <i onClick={handleClickMenu} className="icon bx bx-menu-alt-left"></i>
-      )}
-      <section className="container_navbar">
-        <div id={barra} className={`initial ${menuNav ? "active" : ""}`}>
-          <div className="container_a">
-            <a
-              onClick={handleClickMenu}
-              href="#aboutMe"
-              className="container_navbar-h2"
-              id={barra}
-            >
-              <span className="container_navbar-span">
-                {t("menuNav.aboutMenu")}
-              </span>
-            </a>
-            <a
-              onClick={handleClickMenu}
-              href="#projects"
-              className="container_navbar-h2"
-              id={barra}
-            >
-              <span className="container_navbar-span">
-                {t("menuNav.projectMenu")}
-              </span>
-            </a>
-            <a
-              onClick={handleClickMenu}
-              href="#TechSkills"
-              className="container_navbar-h2"
-              id={barra}
-            >
-              <span className="container_navbar-span">
-                {t("TechSkills.TechSkillsTitle")}
-              </span>
-            </a>
-            <a
-              onClick={handleClickMenu}
-              href="#Education"
-              className="container_navbar-h2"
-              id={barra}
-            >
-              <span className="container_navbar-span">
-                {t("Education.EducationTitle")}
-              </span>
-            </a>
-            <a
-              onClick={handleClickMenu}
-              href="#contact"
-              className="container_navbar-h2"
-              id={barra}
-            >
-              <span className="container_navbar-span">
-                {t("menuNav.contactMenu")}
-              </span>
-            </a>
-            <i className="iconX bx bx-x" onClick={handleClickMenu}></i>
-          </div>
+        aria-label="Cambiar tema"
+      >
+        <i className={`bx bx-${theme === "light" ? "moon" : "sun"}`}></i>
+      </button>
+
+      <button
+        className="menuToggle"
+        onClick={handleClickMenu}
+        aria-expanded={menuNav}
+        aria-controls="siteMenu"
+        aria-label={menuNav ? "Cerrar menú" : "Abrir menú"}
+      >
+        <i className={`bx ${menuNav ? "bx-x" : "bx-menu"}`}></i>
+      </button>
+
+      <div
+        className={`backdrop ${menuNav ? "visible" : ""}`}
+        onClick={handleClickMenu}
+        aria-hidden={!menuNav}
+      />
+
+      <aside
+        id="siteMenu"
+        className={`sidePanel ${menuNav ? "open" : ""}`}
+        aria-hidden={!menuNav}
+      >
+        <div id={barra} className="sideInner">
+          <ul className="navList">
+            <li>
+              <a onClick={handleClickMenu} href="#aboutMe" className="navLink">
+                <i className="bx bx-user navIcon" aria-hidden="true" />
+                <span>{t("menuNav.aboutMenu")}</span>
+              </a>
+            </li>
+            <li>
+              <a onClick={handleClickMenu} href="#projects" className="navLink">
+                <i className="bx bx-briefcase navIcon" aria-hidden="true" />
+                <span>{t("menuNav.projectMenu")}</span>
+              </a>
+            </li>
+            <li>
+              <a onClick={handleClickMenu} href="#TechSkills" className="navLink">
+                <i className="bx bx-code-alt navIcon" aria-hidden="true" />
+                <span>{t("TechSkills.TechSkillsTitle")}</span>
+              </a>
+            </li>
+            <li>
+              <a onClick={handleClickMenu} href="#Education" className="navLink">
+                <i className="bx bx-book navIcon" aria-hidden="true" />
+                <span>{t("Education.EducationTitle")}</span>
+              </a>
+            </li>
+            <li>
+              <a onClick={handleClickMenu} href="#contact" className="navLink">
+                <i className="bx bx-mail-send navIcon" aria-hidden="true" />
+                <span>{t("menuNav.contactMenu")}</span>
+              </a>
+            </li>
+          </ul>
         </div>
-      </section>
+      </aside>
     </nav>
   );
 };

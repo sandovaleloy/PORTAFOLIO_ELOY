@@ -8,8 +8,9 @@
         "aboutMe": "Acerca de mi",
         "iAm": "Hola yo soy",
         "name": "Eloy sandoval",
-        "FullStack": "Desarrollador Full Stack",
-        "pAboutMe": "Como persona organizada y muy motivada, soy capaz de adaptarme a cualquier circunstancia y dar siempre lo mejor de mí en cualquier proyecto, a la vez que me esfuerzo por trabajar en equipo y fomentar valores como el compañerismo, si quieres. puedes contactarme Encontrarás toda mi información en el área de contacto."
+        "FullStack": "Desarrollador Front-End",
+        "pAboutMe": "Soy una persona organizada, proactiva y altamente motivada, con gran capacidad de adaptación a diferentes entornos y proyectos. Me caracterizo por mantener siempre una actitud positiva, orientada a dar lo mejor de mí en cada tarea, priorizando la calidad y la responsabilidad en los resultados. Disfruto trabajar en equipo, fomentando la colaboración, el compañerismo y el respeto como pilares fundamentales para alcanzar los objetivos. Al mismo tiempo, me esfuerzo por seguir aprendiendo y perfeccionando mis habilidades, ya que considero que la mejora continua es clave en el ámbito profesional y personal.\n\nSi deseas conocer más sobre mi trayectoria o ponerte en contacto conmigo, encontrarás toda mi información en la sección de contacto.",
+        "cvBtn": "Ver Mi CV"
     },
     "Project": {
         "ProyectTitle": "Proyectos",
@@ -38,7 +39,7 @@
     },
     "Contact": {
         "ContactTitle": "Contactos",
-        "pharagraphForm": "Podríamos Comunicarnos Directamente Aquí ⬇️",
+        "pharagraphForm": "Podrías Comunicarte Directamente Aquí ⬇️",
         "placeName": "Tu Nombre",
         "placeEmail": "Tu Email",
         "placeMessage": "Escribe tu mensaje...",

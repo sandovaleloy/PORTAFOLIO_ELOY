@@ -8,9 +8,9 @@
         "aboutMe": "About me",
         "iAm": "Hi I am",
         "name": "Eloy sandoval",
-        "FullStack": "Developer Full Stack",
-        "pAboutMe": "As an organized and highly motivated person, I am able to adapt to any circumstance and always give my best in any project, while at the same time making an effort to work as a team and promote values ​​such as camaraderie, if you want you can contact me. You will find all my information in the contact area."
-
+        "FullStack": "Developer Front-End",
+        "pAboutMe": "I am an organized, proactive and highly motivated person, with great ability to adapt to different environments and projects. I am characterized by always maintaining a positive attitude, oriented to give my best in each task, prioritizing quality and responsibility in the results. I enjoy working in a team, fostering collaboration, companionship and respect as fundamental pillars to achieve objectives. At the same time, I strive to continue learning and perfecting my skills, as I consider that continuous improvement is key in the professional and personal field.\n\nIf you want to know more about my career or get in touch with me, you will find all my information in the contact section.",
+        "cvBtn": "See My CV"
     },
     "Project": {
         "ProyectTitle": "Projects",

@@ -1,4 +1,3 @@
-import React from 'react'
 import { useTranslation } from 'react-i18next'
 import "./styles/AboutMe.css"
 
@@ -14,6 +13,14 @@ const AboutMe = () => {
             <h2 className='paragraphAboutMe'>{t("AboutMe.FullStack")}</h2>
             <p className='paragraphAboutMe'>{t("AboutMe.pAboutMe")}</p>
         </div>
+        <a 
+          href="/CV-EloySandoval.pdf" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="cv-button"
+        >
+          {t("AboutMe.cvBtn")}
+        </a>
     </article>
   )
 }
