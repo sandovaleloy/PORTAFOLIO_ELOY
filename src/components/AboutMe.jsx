@@ -11,8 +11,8 @@ const AboutMe = () => {
         <div className='container_data'>
             <h5>{t("AboutMe.iAm")}</h5>
             <h4>{t("AboutMe.name")}</h4>
-            <h2>{t("AboutMe.FullStack")}</h2>
-            <p>{t("AboutMe.pAboutMe")}</p>
+            <h2 className='paragraphAboutMe'>{t("AboutMe.FullStack")}</h2>
+            <p className='paragraphAboutMe'>{t("AboutMe.pAboutMe")}</p>
         </div>
     </article>
   )

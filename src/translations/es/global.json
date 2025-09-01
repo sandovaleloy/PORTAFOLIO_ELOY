@@ -14,17 +14,21 @@
     "Project": {
         "ProyectTitle": "Proyectos",
         "users": "Usuarios",
-        "DescriptionUsers": "responsive App para crear, eliminar y editar usuarios",
+        "DescriptionUsers": "Aplicación web responsive que permite gestionar usuarios de manera integral, facilitando su creación, edición y eliminación con eficiencia.",
         "WheaterApp": "Aplicación Del clima",
         "DescriptionWeather": "Una app del clima, que muestra la temperaturas en C° y F°, y el clima en tu localizacion con una weather Api",
         "MemoriesCard": "Tarjetas De Recuerdos",
-        "DescriptionCard": "Entretenida app que genera cartas con frases de personas historicas",
+        "DescriptionCard": "Aplicación interactiva que genera cartas con frases inspiradoras de personajes históricos, ofreciendo aprendizaje y entretenimiento.",
         "Pokedex": "Pokedex",
-        "DescriptionPokedex": "Divertida pokedex con todos los pokemones de una poke Api",
+        "DescriptionPokedex": "Pokedex interactiva que consulta una API pública para listar todas las especies ofreciendo búsqueda, filtros y fichas detalladas.",
         "Sampdoria": "Club Sampdoria",
         "DescriptionSampdoria": "App diseñada para un club de futbol amateur y para mantener informada a la aficion ",
         "Ecommerce": "Ecommerce",
-        "DescriptionEcommerce": "Consumo de una Api de productos electronicos, con diferentes funcionalidades"
+        "DescriptionEcommerce": "Aplicación que consume una API de productos electrónicos, integrando diversas funcionalidades para explorar, gestionar y visualizar datos.",
+        "somosawaq": "Somos Awaq",
+        "DescriptionSomosawaq": "Esta plataforma muestra el trabajo de la organización sin fines de lucro Awaq, que se dedica a promover el desarrollo sostenible.",
+        "segundoCongreso": "Segundo Congreso",
+        "DescriptionCongreso": "mostramos los detalles del segundo congreso internacional de desarrollo sostenible organizado por Awaq."
     },
     "Education": {
         "EducationTitle": "Educacion"
@@ -33,6 +37,11 @@
         "TechSkillsTitle": "Habilidades Tecnológicas"
     },
     "Contact": {
-        "ContactTitle": "Contactos"
+        "ContactTitle": "Contactos",
+        "pharagraphForm": "Podríamos Comunicarnos Directamente Aquí ⬇️",
+        "placeName": "Tu Nombre",
+        "placeEmail": "Tu Email",
+        "placeMessage": "Escribe tu mensaje...",
+        "buttonSend": "Enviar"
     }
 }

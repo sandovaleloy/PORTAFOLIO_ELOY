@@ -1,4 +1,3 @@
-import React from "react";
 import "./styles/Project.css";
 import { useTranslation } from "react-i18next";
 
@@ -8,6 +7,51 @@ const Project = () => {
     <article className="container_project">
       <h2>{t("Project.ProyectTitle")}</h2>
       <div className="contenedor">
+        <a
+          href="https://www.somosawaq.org/"
+          target="_blank"
+          className="figure"
+        >
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDV3byBMsfNNTAG_VYcESqm94gto_MnmF-hKvLiDjvrkZpMEWxN75wN_v53FAkruKAbKGvrqJTMcd_kapTSh_xy7-HUNwEccSkqrU-FsKUSp_C5gkOV6_FKPKI2cx4SPf4caTviOafpsW2efnRCrhtOtC_yzt_BRPdd4iB1B8wKIs8TARLeQ6kjQ5iMJY0/s1338/Captura%20de%20pantalla_2025-08-31_22-43-33.png"
+            alt=""
+          />
+          <div className="qq">
+            <div className="capa">
+              <h3>{t("Project.somosawaq")}</h3>
+              <p>{t("Project.DescriptionSomosawaq")}</p>
+              <div className="div-icoon1">
+                <i className="icoon_project bx bxl-github"></i>
+                <i className="icoon_project bx bxl-react"></i>
+                <i className="icoon_project bx bxl-typescript"></i>
+                <i className="icoon_project bx bxl-tailwind-css"></i>
+                <i className="icoon_project bx bxl-javascript"></i>
+              </div>
+            </div>
+          </div>
+        </a><a
+          href="https://congreso.somosawaq.org/"
+          target="_blank"
+          className="figure"
+        >
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtxhGQyMTPdI-gtGd-8HRAprEsXI76egmCwyirHD_FnJvt8bnAbLiXA0k0_A6hDMZ5rjWgx8Fo_ClTYQKc5hRq0KYlpBgvWGH-Qj8kYrqzZKfT50ZKSPPtC8QyPWrYIliT9JrZ-GDOfOZExS2S7ckPhCcV2xq_lsWo560dLE39q_JPjd1Ouc3JOrnnZGt2/s1330/Captura%20de%20pantalla_2025-08-31_22-44-04.png"
+            alt=""
+          />
+          <div className="qq">
+            <div className="capa">
+              <h3>{t("Project.segundoCongreso")}</h3>
+              <p>{t("Project.DescriptionCongreso")}</p>
+              <div className="div-icoon1">
+                <i className="icoon_project bx bxl-github"></i>
+                <i className="icoon_project bx bxl-react"></i>
+                <i className="icoon_project bx bxl-typescript"></i>
+                <i className="icoon_project bx bxl-tailwind-css"></i>
+                <i className="icoon_project bx bxl-javascript"></i>
+              </div>
+            </div>
+          </div>
+        </a>
         <a
           href="https://ecommerce-electronic-shop.netlify.app/"
           target="_blank"
@@ -52,24 +96,6 @@ const Project = () => {
             </div>
           </div>
         </a>
-
-        {/* <a href="https://club-sampdoria-becerril.netlify.app/" target="_blank" className="figure">
-          <img
-            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtAZFMgLHyoO5WiQUdwsRZ-1XDS-Tg2WdJ-NIgVuBQ3OSRTEpf9Bdt2fDivbZJJ2Xg-YHNcsp5QR82pLvPoRScxHWkGTfAAGow1rwfdMulbQheExqPt9ha_7yUDIbWu4zF2dY2iNO7CERbR_9S0pwrLgAGaP_uSajDuXGsxdgNVfVU43OIEenNWjodMA/s1328/sampdoria.PNG"
-            alt=""
-          />
-
-          <div className="capa">
-            <h3>{t("Project.Sampdoria")}</h3>
-            <p>{t("Project.DescriptionSampdoria")}</p>
-            <div className="div-icoon3">
-              <i className="icoon_project bx bxl-react"></i>
-              <i className="icoon_project bx bxl-css3"></i>
-              <i className="icoon_project bx bxl-html5"></i>
-              <i className="icoon_project bx bxl-javascript"></i>
-            </div>
-          </div>
-        </a> */}
 
         <a
           href="https://memories-card-historic.netlify.app/"

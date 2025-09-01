@@ -53,7 +53,7 @@ function App() {
         <Education />
       </div>
       <div id="TechSkills">
-        <TechSkills />
+        <TechSkills theme={theme} />
       </div>
       <div id="contact">
         <Contact theme={theme} />

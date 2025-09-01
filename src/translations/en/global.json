@@ -15,17 +15,21 @@
     "Project": {
         "ProyectTitle": "Projects",
         "users": "users",
-        "DescriptionUsers": "Responsive App to create, delete and edit users",
+        "DescriptionUsers": "Responsive web application that allows comprehensive user management, facilitating their creation, editing and deletion efficiently.",
         "WheaterApp": "Wheater App",
         "DescriptionWeather": "A weather app, that shows the temperatures in C° and F°, and the weather in your location with a weather Api",
         "MemoriesCard": "Memories Card",
-        "DescriptionCard": "Entertaining app that generates letters with phrases from historical people",
+        "DescriptionCard": "Interactive application that generates cards with inspiring phrases from historical figures, offering learning and entertainment.",
         "Pokedex": "Pokedex",
-        "DescriptionPokedex": "Funny pokedex with all the pokemons of a poke Api",
+        "DescriptionPokedex": "Interactive Pokedex that queries a public API to list all species offering search, filters and detailed records.",
         "Sampdoria": "Club Sampdoria",
         "DescriptionSampdoria": "App designed for an amateur soccer club and to keep the fans informed",
         "Ecommerce": "Ecommerce",
-        "DescriptionEcommerce": "Consumption of an API of electronic products, with different functionalities"
+        "DescriptionEcommerce": "Application that consumes an electronics products API, integrating various functionalities to explore, manage and visualize data.",
+        "somosawaq": "we are awaq",
+        "DescriptionSomosawaq": "This platform showcases the work of the non-profit organization Awaq, which is dedicated to promoting sustainable development.",
+        "segundoCongreso": "Second Congress",
+        "DescriptionCongreso": "We show the details of the second international congress on sustainable development organized by Awaq."
     },
     "Education": {
         "EducationTitle": "Education"
@@ -34,6 +38,11 @@
         "TechSkillsTitle": "Tech Skills"
     },
     "Contact": {
-        "ContactTitle": "Contact"
+        "ContactTitle": "Contact",
+        "pharagraphForm": "We could Communicate Directly Here ⬇️",
+        "placeName": "Your Name",
+        "placeEmail": "Your Email",
+        "placeMessage": "Write your message...",
+        "buttonSend": "Send"
     }
 }

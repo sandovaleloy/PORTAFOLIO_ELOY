@@ -1,32 +1,27 @@
 const particlesConfig = {
   particles: {
     number: {
-      value: 40,
+      value: 50, // Cantidad moderada (ni vacío ni saturado)
       density: {
         enable: true,
-        value_area: 800,
+        value_area: 900,
       },
     },
     color: {
-      value: "#7F7DDE",
+      value: "#4A90E2", // Azul profesional confiable
     },
     shape: {
-      type: "square",
+      type: "circle", // Más elegante que "square"
       stroke: {
         width: 0,
-        color: "#7F7DDE",
+        color: "#ffffff",
       },
       polygon: {
         nb_sides: 5,
       },
-      image: {
-        src: "img/github.svg",
-        width: 100,
-        height: 100,
-      },
     },
     opacity: {
-      value: 0.5,
+      value: 0.3,
       random: false,
       anim: {
         enable: false,
@@ -40,21 +35,21 @@ const particlesConfig = {
       random: true,
       anim: {
         enable: false,
-        speed: 40,
-        size_min: 0.1,
+        speed: 4,
+        size_min: 0.3,
         sync: false,
       },
     },
     line_linked: {
       enable: true,
-      distance: 130,
-      color: "#7F7DDE",
-      opacity: 0.4,
+      distance: 150,
+      color: "#4A90E2", // 🔹 Antes rojo, ahora azul elegante
+      opacity: 0.25,
       width: 1,
     },
     move: {
       enable: true,
-      speed: 2,
+      speed: 1.2, // Movimiento suave
       direction: "none",
       random: false,
       straight: false,
@@ -72,7 +67,7 @@ const particlesConfig = {
     events: {
       onhover: {
         enable: true,
-        mode: "repulse",
+        mode: "grab", // Más elegante que "repulse"
       },
       onclick: {
         enable: true,
@@ -82,24 +77,24 @@ const particlesConfig = {
     },
     modes: {
       grab: {
-        distance: 400,
+        distance: 180,
         line_linked: {
-          opacity: 1,
+          opacity: 0.5, // 🔹 Sutil pero visible en azul
         },
       },
       bubble: {
-        distance: 400,
-        size: 40,
+        distance: 250,
+        size: 6,
         duration: 2,
-        opacity: 8,
-        speed: 3,
+        opacity: 0.8,
+        speed: 2,
       },
       repulse: {
-        distance: 200,
-        duration: 0.4,
+        distance: 120,
+        duration: 0.3,
       },
       push: {
-        particles_nb: 4,
+        particles_nb: 3,
       },
       remove: {
         particles_nb: 2,
