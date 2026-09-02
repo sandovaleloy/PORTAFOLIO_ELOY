@@ -7,19 +7,23 @@ import "./styles/TechSkills.css";
 import { useTranslation } from "react-i18next";
 
 const skills = [
-  { icon: "bxl-javascript", label: "JavaScript" },
-  { icon: "bxl-java", label: "Java" },
-  { icon: "bxl-react", label: "React" },
-  { icon: "bxl-typescript", label: "TypeScript" },
-  { icon: "bxl-nodejs", label: "Node.js" },
-  { icon: "bxl-github", label: "GitHub" },
-  { icon: "bxl-redux", label: "Redux" },
-  { icon: "bxl-tailwind-css", label: "Tailwind" },
-  { icon: "bxl-html5", label: "HTML5" },
-  { icon: "bxl-bootstrap", label: "Bootstrap" },
-  { icon: "bxl-css3", label: "CSS3" },
-  { icon: "bxl-mongodb", label: "MongoDB" },
-  { icon: "bxl-postgresql", label: "PostgreSQL" },
+  { icon: "bxl-javascript", label: "JavaScript", type: "bx" },
+  { icon: "bxl-typescript", label: "TypeScript", type: "bx" },
+  { icon: "bxl-react", label: "React", type: "bx" },
+  { icon: "devicon-nextjs-plain", label: "Next.js", type: "devicon" },
+  { icon: "bxl-nodejs", label: "Node.js", type: "bx" },
+  { icon: "bxl-java", label: "Java", type: "bx" },
+  { icon: "bxl-tailwind-css", label: "Tailwind CSS", type: "bx" },
+  { icon: "bxl-postgresql", label: "PostgreSQL", type: "bx" },
+  { icon: "devicon-prisma-original", label: "Prisma", type: "devicon" },
+  { icon: "bxl-mongodb", label: "MongoDB", type: "bx" },
+  { icon: "bxl-redux", label: "Redux", type: "bx" },
+  { icon: "devicon-git-plain", label: "Git", type: "devicon" },
+  { icon: "bxl-github", label: "GitHub", type: "bx" },
+  { icon: "bxl-html5", label: "HTML5", type: "bx" },
+  { icon: "bxl-css3", label: "CSS3", type: "bx" },
+  { icon: "bxl-bootstrap", label: "Bootstrap", type: "bx" },
+  { icon: "devicon-linux-plain", label: "Linux", type: "devicon" },
 ];
 
 const TechSkills = ({ theme }) => {
@@ -43,7 +47,7 @@ const TechSkills = ({ theme }) => {
         {skills.map((skill, index) => (
           <SwiperSlide key={index} className="tech_slide">
             <div className={`tech_item ${theme}`}>
-              <i className={`bx ${skill.icon}`}></i>
+              <i className={`${skill.type} ${skill.icon}`}></i>
               <p>{skill.label}</p>
             </div>
           </SwiperSlide>

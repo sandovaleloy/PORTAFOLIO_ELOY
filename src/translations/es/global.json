@@ -14,8 +14,10 @@
     },
     "Project": {
         "ProyectTitle": "Proyectos",
+        "Tasks": "Task Manager",
+        "DescriptionTasks": "Aplicación web para gestionar y organizar tareas eficientemente a través de una API",
         "users": "Usuarios",
-        "DescriptionUsers": "Aplicación web responsive que permite gestionar usuarios de manera integral, facilitando su creación, edición y eliminación con eficiencia.",
+        "DescriptionUsers": "Aplicación responsive que permite gestionar usuarios de manera integral, facilitando su creación, edición y eliminación con eficiencia.",
         "WheaterApp": "Aplicación Del clima",
         "DescriptionWeather": "Una app del clima, que muestra la temperaturas en C° y F°, y el clima en tu localizacion con una weather Api",
         "MemoriesCard": "Tarjetas De Recuerdos",

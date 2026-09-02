@@ -14,9 +14,11 @@
     },
     "Project": {
         "ProyectTitle": "Projects",
-        "users": "users",
+        "Tasks": "Tasks Manager",
+        "DescriptionTasks": "Web application to efficiently manage and organize tasks through an API",
+        "users": "Users",
         "DescriptionUsers": "Responsive web application that allows comprehensive user management, facilitating their creation, editing and deletion efficiently.",
-        "WheaterApp": "Wheater App",
+        "WheaterApp": "Weather App",
         "DescriptionWeather": "A weather app, that shows the temperatures in C° and F°, and the weather in your location with a weather Api",
         "MemoriesCard": "Memories Card",
         "DescriptionCard": "Interactive application that generates cards with inspiring phrases from historical figures, offering learning and entertainment.",

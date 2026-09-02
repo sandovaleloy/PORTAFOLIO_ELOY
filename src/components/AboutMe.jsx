@@ -14,7 +14,7 @@ const AboutMe = () => {
             <p className='paragraphAboutMe'>{t("AboutMe.pAboutMe")}</p>
         </div>
         <a 
-          href="/CV-EloySandoval.pdf" 
+          href="/CV-es-EloySandoval.pdf" 
           target="_blank" 
           rel="noopener noreferrer"
           className="cv-button"

@@ -8,6 +8,28 @@ const Project = () => {
       <h2>{t("Project.ProyectTitle")}</h2>
       <div className="contenedor">
         <a
+          href="https://project-management-app-coae.vercel.app/login"
+          target="_blank"
+          className="figure"
+        >
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFYQeAzCixvfQX8a8tF-JyIzia70GIaBBM2H1Oly3jzsTisSSGQ8unbOJchONjnNu8pGR8QquuFLOTQzzYHySuDxID-l1kKzqYa3zDYWFHjzCZ6-UGV7v2TiNleU-9DxfYrHH8kqn3gjbHkwtUypFRLv9Ok8uJD0cb7jOGaTEIXmTA33757VdRy0Q4V5Iv/s1355/Screenshot_2026-09-01_15-10-48.png"
+            alt=""
+          />
+          <div className="capa">
+            <h3>{t("Project.Tasks")}</h3>
+            <p>{t("Project.DescriptionTasks")}</p>
+            <div className="div-icoon6">
+              <i className="icoon_project devicon-nextjs-plain"></i>
+              <i className="icoon_project bx bxl-typescript"></i>
+              <i className="icoon_project bx bxl-tailwind-css"></i>
+              <i className="icoon_project devicon-prisma-original"></i>
+              <i className="icoon_project devicon-postgresql-plain"></i>
+            </div>
+          </div>
+        </a>
+
+        <a
           href="https://www.somosawaq.org/"
           target="_blank"
           className="figure"
@@ -47,29 +69,6 @@ const Project = () => {
                 <i className="icoon_project bx bxl-react"></i>
                 <i className="icoon_project bx bxl-typescript"></i>
                 <i className="icoon_project bx bxl-tailwind-css"></i>
-                <i className="icoon_project bx bxl-javascript"></i>
-              </div>
-            </div>
-          </div>
-        </a>
-        <a
-          href="https://ecommerce-electronic-shop.netlify.app/"
-          target="_blank"
-          className="figure"
-        >
-          <img
-            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiiaBbRA8V11WB9N3Z5e1zdihzrCNPW8T2mNOdtmOrDdJAAnOG5lC0tstc78GD8_KlzWEVe8JUz5Z0tjzRdRq191xV_WaLmBJYone1p5jTSo1yzFPYb1mLpZLUeODdrcUOGkkyPbDvf_QI3snfok7roTIkW89PyQL-LndHYWdlp4L6l6NETbnuQEnjAxg/s1262/ecomerce.PNG"
-            alt=""
-          />
-          <div className="qq">
-            <div className="capa">
-              <h3>{t("Project.Ecommerce")}</h3>
-              <p>{t("Project.DescriptionEcommerce")}</p>
-              <div className="div-icoon1">
-                <i className="icoon_project bx bxl-react"></i>
-                <i className="icoon_project bx bxl-redux"></i>
-                <i className="icoon_project bx bxl-css3"></i>
-                <i className="icoon_project bx bxl-html5"></i>
                 <i className="icoon_project bx bxl-javascript"></i>
               </div>
             </div>
@@ -120,6 +119,28 @@ const Project = () => {
         </a>
 
         <a
+          href="https://users-generation.netlify.app/"
+          target="_blank"
+          className="figure"
+        >
+          <img
+            // src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYpGzZcnh9cJXfipDrClaYBiGO5qnWWLFOPgPMdrfK5JZT9gXPPmmCKLM4FbeGdxLS01dfBoqHljrrRKd47k1sE7HRZYehrdbdFQDvTk3fp9QfHpbkrIAvoxztQeEGmvB_h769sHytBqCSDLAjmkV4mi1jERmZBf1KFHcqxQy2CmgKFSj46q03Ei5aS7kq/s856/usersGeneretion.PNG"
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKPcuwvwE7mp4zaFDnkcn1wZWI6_la1oUyDhFGkwckQZ9Ngn1C-wbTfDS6yNugA-7CQ_iKPcXhwbYXqsxx3ERZny0xWNp_ywxaQcAkmUMw7T3gYKGqFJElSrunqO2xFTS7jaaj5aGCIf3oyMW7ANeScvVFDSS1N4bJ_4J0N_DeO91l6cuzip31gUiuEA-N/s1010/users.2.PNG"
+            alt=""
+          />
+          <div className="capa">
+            <h3>{t("Project.users")}</h3>
+            <p>{t("Project.DescriptionUsers")}</p>
+            <div className="div-icoon6">
+              <i className="icoon_project bx bxl-react"></i>
+              <i className="icoon_project bx bxl-css3"></i>
+              <i className="icoon_project bx bxl-html5"></i>
+              <i className="icoon_project bx bxl-javascript"></i>
+            </div>
+          </div>
+        </a>
+
+        <a
           href="https://pokedex-actual.netlify.app/"
           target="_blank"
           className="figure"
@@ -143,23 +164,25 @@ const Project = () => {
         </a>
 
         <a
-          href="https://users-generation.netlify.app/"
+          href="https://ecommerce-electronic-shop.netlify.app/"
           target="_blank"
           className="figure"
         >
           <img
-            // src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYpGzZcnh9cJXfipDrClaYBiGO5qnWWLFOPgPMdrfK5JZT9gXPPmmCKLM4FbeGdxLS01dfBoqHljrrRKd47k1sE7HRZYehrdbdFQDvTk3fp9QfHpbkrIAvoxztQeEGmvB_h769sHytBqCSDLAjmkV4mi1jERmZBf1KFHcqxQy2CmgKFSj46q03Ei5aS7kq/s856/usersGeneretion.PNG"
-            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKPcuwvwE7mp4zaFDnkcn1wZWI6_la1oUyDhFGkwckQZ9Ngn1C-wbTfDS6yNugA-7CQ_iKPcXhwbYXqsxx3ERZny0xWNp_ywxaQcAkmUMw7T3gYKGqFJElSrunqO2xFTS7jaaj5aGCIf3oyMW7ANeScvVFDSS1N4bJ_4J0N_DeO91l6cuzip31gUiuEA-N/s1010/users.2.PNG"
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiiaBbRA8V11WB9N3Z5e1zdihzrCNPW8T2mNOdtmOrDdJAAnOG5lC0tstc78GD8_KlzWEVe8JUz5Z0tjzRdRq191xV_WaLmBJYone1p5jTSo1yzFPYb1mLpZLUeODdrcUOGkkyPbDvf_QI3snfok7roTIkW89PyQL-LndHYWdlp4L6l6NETbnuQEnjAxg/s1262/ecomerce.PNG"
             alt=""
           />
-          <div className="capa">
-            <h3>{t("Project.users")}</h3>
-            <p>{t("Project.DescriptionUsers")}</p>
-            <div className="div-icoon6">
-              <i className="icoon_project bx bxl-react"></i>
-              <i className="icoon_project bx bxl-css3"></i>
-              <i className="icoon_project bx bxl-html5"></i>
-              <i className="icoon_project bx bxl-javascript"></i>
+          <div className="qq">
+            <div className="capa">
+              <h3>{t("Project.Ecommerce")}</h3>
+              <p>{t("Project.DescriptionEcommerce")}</p>
+              <div className="div-icoon1">
+                <i className="icoon_project bx bxl-react"></i>
+                <i className="icoon_project bx bxl-redux"></i>
+                <i className="icoon_project bx bxl-css3"></i>
+                <i className="icoon_project bx bxl-html5"></i>
+                <i className="icoon_project bx bxl-javascript"></i>
+              </div>
             </div>
           </div>
         </a>
