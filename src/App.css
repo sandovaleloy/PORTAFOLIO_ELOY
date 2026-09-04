@@ -1,44 +1,87 @@
 .App {
   height: 100%;
-  transition: background 300ms ease, color 300ms ease;
-}
-
-img {
-  width: 70px;
-  height: 100%;
-}
-
-.btn_es {
-  border: none;
-  cursor: pointer;
-  z-index: 9998;
-  transition: background 300ms ease, color 300ms ease;
-}
-
-.btn_en {
-  border: none;
-  cursor: pointer;
-  z-index: 9998;
-  transition: background 300ms ease, color 300ms ease;
+  transition:
+    background 300ms ease,
+    color 300ms ease;
 }
 
 #dark {
-  background-color: #030729;
-  color: white;
+  background-color: #0f1714;
+  color: #f3f1ea;
 }
 
 #light {
-  background-color: #EAEAEA;
-  color: black;
+  background-color: #f7f5ef;
+  color: #17201c;
 }
 
 .div_app {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  align-items: center;
+  gap: 8px;
   padding: 5px;
   margin-bottom: 100px;
   position: relative;
+}
+
+.btn_es,
+.btn_en {
+  width: 52px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  background: transparent;
+  z-index: 9998;
+  transition:
+    transform 300ms ease,
+    background-color 300ms ease,
+    border-color 300ms ease,
+    box-shadow 300ms ease;
+}
+
+.btn_es img,
+.btn_en img {
+  width: 36px;
+  height: 24px;
+  object-fit: cover;
+  border-radius: 4px;
+  transition:
+    transform 300ms ease,
+    opacity 300ms ease;
+}
+
+.btn_es:hover,
+.btn_en:hover {
+  transform: translateY(-2px);
+}
+
+.btn_es:hover img,
+.btn_en:hover img {
+  transform: scale(1.05);
+}
+
+.btn_es.active,
+.btn_en.active {
+  background: rgba(79, 138, 106, 0.14);
+  border-color: rgba(79, 138, 106, 0.45);
+  box-shadow:
+    0 4px 14px rgba(0, 0, 0, 0.15);
+}
+
+.btn_es:not(.active) img,
+.btn_en:not(.active) img {
+  opacity: 0.55;
+}
+
+.btn_es.active img,
+.btn_en.active img {
+  opacity: 1;
 }
 
 html {

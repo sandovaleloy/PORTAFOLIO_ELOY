@@ -10,26 +10,130 @@ const ParticlesBackground = ({ theme }) => {
 
   const lightParticlesConfig = {
     ...particlesConfig,
+
     particles: {
       ...particlesConfig.particles,
+
+      number: {
+        ...particlesConfig.particles.number,
+        value: 35,
+      },
+
       color: {
-        value: "#111210", // Cambia el color según el modo claro/oscuro
+        value: "#4f8a6a",
       },
-      shape: {
-        type: "circle",
+
+      opacity: {
+        ...particlesConfig.particles.opacity,
+        value: 0.16,
       },
+
+      size: {
+        ...particlesConfig.particles.size,
+        value: 2,
+      },
+
       line_linked: {
-        color: "rgb(231, 17, 17)", //no esta funcionando bien pero me sirve
+        ...particlesConfig.particles.line_linked,
+        color: "#4f8a6a",
+        opacity: 0.08,
+        distance: 160,
+        width: 1,
+      },
+
+      move: {
+        ...particlesConfig.particles.move,
+        speed: 0.7,
+      },
+    },
+
+    interactivity: {
+      ...particlesConfig.interactivity,
+
+      modes: {
+        ...particlesConfig.interactivity.modes,
+
+        grab: {
+          ...particlesConfig.interactivity.modes.grab,
+          distance: 160,
+
+          line_linked: {
+            opacity: 0.2,
+          },
+        },
+      },
+    },
+  };
+
+  const darkParticlesConfig = {
+    ...particlesConfig,
+
+    particles: {
+      ...particlesConfig.particles,
+
+      number: {
+        ...particlesConfig.particles.number,
+        value: 40,
+      },
+
+      color: {
+        value: "#8eaa9a",
+      },
+
+      opacity: {
+        ...particlesConfig.particles.opacity,
+        value: 0.22,
+      },
+
+      size: {
+        ...particlesConfig.particles.size,
+        value: 2,
+      },
+
+      line_linked: {
+        ...particlesConfig.particles.line_linked,
+        color: "#4f8a6a",
+        opacity: 0.11,
+        distance: 170,
+        width: 1,
+      },
+
+      move: {
+        ...particlesConfig.particles.move,
+        speed: 0.8,
+      },
+    },
+
+    interactivity: {
+      ...particlesConfig.interactivity,
+
+      modes: {
+        ...particlesConfig.interactivity.modes,
+
+        grab: {
+          ...particlesConfig.interactivity.modes.grab,
+          distance: 180,
+
+          line_linked: {
+            opacity: 0.35,
+          },
+        },
       },
     },
   };
 
   return (
-    <div id={theme}>
+    <div
+      className="particles-layer"
+      aria-hidden="true"
+    >
       <Particles
-        id={theme}
-        // options={particlesConfig}
-        options={theme === "light" ? lightParticlesConfig : particlesConfig}
+        id={`particles-${theme}`}
+        options={
+          theme === "light"
+            ? lightParticlesConfig
+            : darkParticlesConfig
+        }
         init={particlesInit}
       />
     </div>

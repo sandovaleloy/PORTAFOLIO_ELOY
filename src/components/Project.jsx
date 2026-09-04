@@ -13,7 +13,7 @@ const Project = () => {
           className="figure"
         >
           <img
-            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFYQeAzCixvfQX8a8tF-JyIzia70GIaBBM2H1Oly3jzsTisSSGQ8unbOJchONjnNu8pGR8QquuFLOTQzzYHySuDxID-l1kKzqYa3zDYWFHjzCZ6-UGV7v2TiNleU-9DxfYrHH8kqn3gjbHkwtUypFRLv9Ok8uJD0cb7jOGaTEIXmTA33757VdRy0Q4V5Iv/s1355/Screenshot_2026-09-01_15-10-48.png"
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEheseQiUvPi9Dwo-GbV_mASPsSzC59vKTmFh9Q4zoDPbOrjyBsIUrgouAgDm3mVwNmzcZN4lOY2IYmAU_K04j-wHTNO_oTnZXiLOVzfBpB-MvpHYHhvDgS3R32c6Bt_hYJWvbD6IYTfD4QPGToatmS5A8YpD0Y2o40cW3s12aZE2L1J3bCt61sr61Ba7nAe/s1360/Screenshot_2026-09-04_12-45-27.png"
             alt=""
           />
           <div className="capa">
