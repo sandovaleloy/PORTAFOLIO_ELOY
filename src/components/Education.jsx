@@ -4,6 +4,9 @@ import { useTranslation } from "react-i18next";
 
 const images = [
   {
+    url: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDtGc3dY4WTw6hXJ1qg6zvHEtiOvfq4N8CBG8sEMGMRICGiLMIj_EeDdsDQNIlBkGNirnDp01nhmCurgvlq5m6GNiTgaL_tN888mLZdl5ARH711szq923sdZxooKwEQ0sQ6pvMDiLTUEE3iE2MP_HlV_fR38Q7PkM-l8HqopOiCX9ROfx3YJYtEgKAWMW7/s760/Screenshot_2026-07-24_17-31-07.png",
+  },
+  {
     url: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisBIYAts_YLKq-7hldFwdKimkbvxjSeSfB1pIJHNYGunHyo4_6crlzRdhS97-w7n9cTJj0BWQ6xVozdrmtGiXYFKMb2DMN7a4tkDXs2ZGetu5900zeY6Sr1rmb6-rwJpu9QNNibFvZ5brCs9DDqHCVQn0uD7sm0-esDK197CfY7q2XD2Ysupb_IZPQe8d5/s1600/53972808005952.png",
   },
   {
